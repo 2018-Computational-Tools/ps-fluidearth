@@ -1,4 +1,4 @@
 dependencies:
 - matplotlib
 - numpy
-- -c conda-forge ffmpeg
+- conda-forge ffmpeg
