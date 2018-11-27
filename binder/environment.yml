@@ -1,4 +1,7 @@
+channels:
+- conda-forge
 dependencies:
+- python
 - matplotlib
 - numpy
-- conda-forge ffmpeg
+- ffmpeg
