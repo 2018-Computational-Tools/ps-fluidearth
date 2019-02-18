@@ -2,3 +2,6 @@
 
 # Install JupyterLab extension
 jupyter labextension install @jupyterlab/toc
+
+# Remove output from Jupyter notebooks
+for f in *.ipynb; do jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace $f; done
