@@ -27,25 +27,5 @@ packrat/src/
 # exclude authentication tokens
 .httr-oauth
 
-# exclude cache
-*cache/*
-
 # exclude output files
-*.pdf
 *.html
-*.png
-*.jpeg
-*.jpg
-*.pptx
-*.docx
-*.xlsx
-*.csv
-
-# allow all files in data
-!data/*
-
-# allow all files in documents
-!documents/*
-
-# allow rendered html files in docs
-!docs/**/*.html
