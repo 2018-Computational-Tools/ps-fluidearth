@@ -1,5 +1,6 @@
 # Install JupyterLab extension
-# jupyter labextension install @jupyterlab/toc
+jupyter labextension install @jupyterlab/toc
 
 # Enable nbgitpuller to pull in content
 jupyter serverextension enable --py nbgitpuller --sys-prefix
+jupyter serverextension enable --py jupyter_offlinenotebook --sys-prefix
