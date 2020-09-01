@@ -1,5 +1,7 @@
 dependencies:
 - nbgitpuller
+- jupyter_offlinenotebook
+- jupyterlab-toc
 - matplotlib
 - numpy
 - ffmpeg
