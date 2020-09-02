@@ -3,9 +3,3 @@ jupyter serverextension enable --py nbgitpuller --sys-prefix
 
 # Enable jupyter offline notebook
 jupyter serverextension enable --py jupyter_offlinenotebook --sys-prefix
-
-# Install Table of Contents
-jupyter labextension install @jupyterlab/toc
-
-# Rebuild jupyterlab to enable TOC extension
-jupyter lab build
